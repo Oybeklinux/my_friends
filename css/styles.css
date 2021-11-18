@@ -1,0 +1,143 @@
+body {
+  margin: auto;
+
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2c140;
+}
+
+.container {
+  min-width: 1343px;
+  max-width: 1343px;
+  margin: 50px auto;
+  text-align: center;
+}
+* {
+  scroll-behavior: smooth;
+}
+h1 {
+  margin-top: -25px;
+  font-family: "Italianno", cursive;
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  left: 280px;
+  font-size: 50px;
+  color: #422c03;
+  letter-spacing: 20px;
+}
+h2,
+h3 {
+  font-family: "Gluten", cursive;
+  color: #422c03;
+}
+.top {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+}
+
+.rounded {
+  width: 180px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+  transition: 1s ease-in-out;
+}
+.rounded:hover {
+  width: 450px;
+  z-index: 1000;
+  transition: 1s ease-in-out;
+}
+.man1 {
+  top: 135px;
+  right: 215px;
+}
+
+.man2 {
+  top: 100px;
+  left: 50px;
+}
+.man3 {
+  top: 50px;
+  left: 300px;
+}
+.man4 {
+  top: 50px;
+  right: 400px;
+}
+.man5 {
+  top: 40px;
+  right: 40px;
+}
+.man6 {
+  bottom: 200px;
+  right: 50px;
+}
+.man7 {
+  bottom: 200px;
+  left: 140px;
+}
+.nature {
+  width: 100%;
+}
+
+.members {
+  width: 80%;
+  margin: auto;
+}
+.members-row p {
+  line-height: 25px;
+  text-align: left;
+}
+.round-img {
+  height: 100%;
+  border-radius: 50%;
+}
+.to-left {
+  float: left;
+  margin-right: 40px;
+}
+.to-right {
+  float: right;
+  margin-left: 40px;
+}
+.about {
+  margin: 100px auto;
+}
+
+.members-row {
+  overflow: hidden;
+  height: 345px;
+  /* margin-top: 100px; */
+  /* background-color: rgba(0, 0, 0, 0.308); */
+}
+
+hr {
+  border: none;
+  border-top: dotted 10px #eb9f0e;
+  width: 80px;
+  margin: 100px auto;
+}
+.bottom-container {
+  background-color: #eb9f0e;
+  padding: 40px 0 20px 0;
+  margin-top: 100px;
+  text-align: center;
+}
+.footer-link {
+  margin: auto 20px;
+  text-decoration: none;
+  color: #422c03;
+  font-weight: bold;
+}
+.bottom-container p {
+  color: white;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.up-arrow {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+}
